@@ -1,0 +1,14 @@
+path: ../Drive/My Drive/Datasets/yolov8
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['camel']
+
+roboflow:
+  workspace: khalid-moftah-32hjl
+  project: camel-detiction
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/khalid-moftah-32hjl/camel-detiction/dataset/3
